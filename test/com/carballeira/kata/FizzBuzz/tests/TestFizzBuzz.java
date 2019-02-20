@@ -45,5 +45,11 @@ public class TestFizzBuzz {
         String resultado = fb.getFizzBuzz(5);
         assertEquals("Buzz", resultado);
     }
+    @Test
+    public void testdivisiblepor3y5(){
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.getFizzBuzz(15);
+        assertEquals("FizzBuzz", resultado);
+    }
     
 }
