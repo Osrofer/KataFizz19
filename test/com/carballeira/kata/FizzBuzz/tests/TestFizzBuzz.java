@@ -45,4 +45,5 @@ public class TestFizzBuzz {
         String resultado = fb.getFizzBuzz(5);
         assertEquals("Buzz", resultado);
     }
+    
 }
